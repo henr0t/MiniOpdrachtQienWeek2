@@ -32,10 +32,13 @@ class UserInterface{
                  break;
              case "3":
                  Groepsreis reis1 = new Groepsreis();
+                 reis1.groepsReis();
+                 break;
              case "4":
                  Fietsen fietsen1 = new Fietsen();
              case "q":
                  exit = true;
+                 break;
          }
      }while(!exit);
 

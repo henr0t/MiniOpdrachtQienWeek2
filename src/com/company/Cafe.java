@@ -62,7 +62,7 @@ class Persoon{
             }
         }
         while(!vertrekken);
-            System.out.println("Bedankt en tot ziens!\n");
+            System.out.println("Bedankt en tot ziens!\n---------------");
     }
 
 }

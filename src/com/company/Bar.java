@@ -11,7 +11,7 @@ class Bar {
         menuKaart2.drankjes();
 
         //Bezoeker
-        Bezoeker bezoeker1 = new Bezoeker("Henry", 20.0, 5, 6, 3, 2,0);
+        Bezoeker bezoeker1 = new Bezoeker("Henry", 20.0, 5, 6, 3, 1,0);
         System.out.println(bezoeker1.naam + " heeft " + bezoeker1.geld + " euro op zak.\n");
         int alcoholPunten = bezoeker1.dronken;
 
@@ -50,7 +50,7 @@ class Bar {
             System.out.println(bezoeker1.naam + " heeft nog €" + dec2.format(bezoeker1.geld) + " op zak.\n");
         }
 
-        System.out.println("Terug naar huis.\n");
+        System.out.println("Terug naar huis.\n---------------");
     }
 
 }
