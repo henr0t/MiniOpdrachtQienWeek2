@@ -26,7 +26,7 @@ class UserInterface{
                  Cafe cafe1 = new Cafe();
                  cafe1.cafe();
                  break;
-             case "2":
+                 case "2":
                  Bar bar1 = new Bar();
                  bar1.bar();
                  break;
@@ -36,6 +36,8 @@ class UserInterface{
                  break;
              case "4":
                  Fietsen fietsen1 = new Fietsen();
+                 fietsen1.fietsen();
+                 break;
              case "q":
                  exit = true;
                  break;
