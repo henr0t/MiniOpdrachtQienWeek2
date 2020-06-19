@@ -19,7 +19,7 @@ class UserInterface{
     {
      do {
          System.out.println("Wat wil je doen vandaag?");
-         System.out.println("1. Cafe (interactief)\n2. Bar \n3. Groepsreis\n4. Fietsen\n\n[q om het programma af te sluiten]");
+         System.out.println("1. Cafe (interactief)\n2. Bar \n3. Groepsreis\n4. Fietsen (interactief)\n\n[q om het programma af te sluiten]");
 
          switch (userInput()) {
              case "1":

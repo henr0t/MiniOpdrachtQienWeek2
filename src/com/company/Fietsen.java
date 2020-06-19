@@ -125,7 +125,9 @@ class Fietser {
         }
      }
      while(!flauwte || !stop);
-        System.out.println(naam+" is van zijn fiets gevallen en naar het ziekenhuis gebracht.");
-
+     if(flauwte) {
+         System.out.println(naam + " is van zijn fiets gevallen en naar het ziekenhuis gebracht.");
+     }
+     else{}
     }
 }
